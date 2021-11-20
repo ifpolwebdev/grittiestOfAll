@@ -1,0 +1,62 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 20px;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.banner {
+  background-color: #4d00ff;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#small-gritty {
+  height: 100px;
+  width: 100px;
+  filter: drop-shadow(0.3px 0.3px 0.3px black);
+}
+
+.gritter-section {
+  padding: 20px 50px;
+}
+
+#gritter {
+  color: #4d00ff;
+  font-size: 100px;
+}
+
+#greets ul {
+  list-style-type: none;
+}
+
+.avatar {
+  background-image: url("../images/GrittiestOfAll.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 7px 0;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+a.blue {
+  color: blue;
+}
